@@ -3,6 +3,7 @@ let summarys = document.querySelectorAll("summary");
 summarys.forEach((summary) => {
     let img = document.createElement("img");
     img.src = "images/icon-plus.svg";
+    img.alt = "icon";
     img.setAttribute("originalSrc", img.src);
     summary.appendChild(img);
 
